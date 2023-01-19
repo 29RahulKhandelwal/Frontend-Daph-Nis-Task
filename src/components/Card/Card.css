@@ -1,0 +1,29 @@
+.card{
+    width: 18rem;
+    border-radius: 12px;
+    margin: 10px 0;
+}
+.productImg{
+    border-bottom: 1px solid lightgray;
+    padding: 5px 10px;
+}
+.card-img-top{
+    height: 200px;
+}
+.productCategory{
+    background-color: royalblue;
+    width: max-content;
+    padding: 4px 8px;
+    color: white;
+    border-radius: 4px;
+    margin-top: 8px;
+    float: right;
+}
+.readMoreBtn{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.readMoreBtn:hover{
+    text-decoration: underline;
+}
