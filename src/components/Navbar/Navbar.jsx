@@ -27,7 +27,7 @@ const Navbar = () => {
                             <ul class="dropdown-menu">
                                 {categories && categories.map((category,index)=>{
                                     return (
-                                        <li key={index}><a class="dropdown-item" onClick={()=>handleSelectedCategory(category)}>{category}</a></li>
+                                        <li key={index} className='category'><a class="dropdown-item" onClick={()=>handleSelectedCategory(category)}>{category}</a></li>
                                     )
                                 })}
                             </ul>

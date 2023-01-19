@@ -72,7 +72,7 @@ const Modal = () => {
     };
 
     return (
-        <div className="backdrop">
+        <div className="backdrop" onClick={handleAnalyseClick}>
             <div className="pieModal">
                 <div className="content">
                     <div className="heading">
